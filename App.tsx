@@ -10,10 +10,18 @@
 
 import React from 'react';
 import { CameraOptions } from './src/screens/CameraOptions';
+import { SafeAreaView } from 'react-native';
+import Header from './src/components/Header';
+import Footer from './src/components/Footer';
+
 
 const App = () => {
   return (
-  <CameraOptions></CameraOptions>
+    <SafeAreaView style={{ flex: 1, height: '100%' }}>
+    <Header></Header>
+    <CameraOptions></CameraOptions>
+    <Footer></Footer>
+</SafeAreaView>
   );
 };
 export default App;
