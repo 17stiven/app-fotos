@@ -5,8 +5,8 @@ import { CameraOpen } from '../components/CameraOpen'
 
 export const CameraOptions = () => {
   return (
-    <SafeAreaView>
-        <Text>CameraOptions</Text>
+    <SafeAreaView style={{flex:1, alignItems: 'center'}}>
+        <Text>Opciones de camara</Text>
         <CameraImage></CameraImage>
         <CameraOpen></CameraOpen>
     </SafeAreaView>
