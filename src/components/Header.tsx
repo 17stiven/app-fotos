@@ -11,7 +11,11 @@ export default function Header() {
   const styles = StyleSheet.create({
     headerFooterStyle: { 
       fontSize: 20, 
-      fontWeight: 'bold', paddingTop: 30,
-    paddingBottom:30,
-  backgroundColor:'#F67D7D', textAlign: 'center', color: '#FFFFFF', }
+      fontWeight: 'bold', 
+      paddingTop: 30,
+      paddingBottom:30,
+      backgroundColor:'#F67D7D', 
+      textAlign: 'center', 
+      color: '#FFFFFF', 
+    }
   });
